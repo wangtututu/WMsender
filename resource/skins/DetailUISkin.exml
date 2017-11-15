@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" strokeColor="0x999999" fillColor="0xcccccc" locked="true"/>
+	<e:Group height="100" left="0" right="0" top="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x383947"/>
+		<e:Label id="lShopName" text="张姐烤肉拌饭" size="32" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image source="return_png" x="20" verticalCenter="0"/>
+	</e:Group>
+	<e:Group height="150" left="0" right="0" top="110">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" locked="true"/>
+		<e:Label text="订单状态" x="80" y="38" size="24" textColor="0x999999"/>
+		<e:Label text="待取货 " x="78" y="75" size="30" textColor="0x000000"/>
+		<e:Label text="订单收入" x="416" y="38" textColor="0x999999" size="24"/>
+		<e:Label text="￥100.0" x="411" y="75" size="30" textColor="0x5861dd"/>
+		<e:Rect width="2" top="50" bottom="50" horizontalCenter="0" fillColor="0x999999" locked="true"/>
+	</e:Group>
+	<e:Group height="200" y="273" left="0" right="0">
+		<e:Rect left="2" right="-2" top="-1" bottom="1" fillColor="0xffffff"/>
+		<e:Label text="河南大学小东门小白楼一楼" x="80" y="41" textColor="0x000000" size="26" anchorOffsetX="0" maxWidth="500" verticalAlign="middle"/>
+		<e:Label text="南苑18#楼124寝室" x="80" textColor="0x000000" size="26" maxWidth="500" anchorOffsetY="0" verticalAlign="middle" y="131"/>
+		<e:Label text="取货" x="10" y="45" textColor="0x999999" size="20"/>
+		<e:Label text="送货" x="11" y="134" size="20" textColor="0x999999"/>
+		<e:Image source="to_png" x="13" verticalCenter="0"/>
+	</e:Group>
+	<e:Group height="320" y="485" left="1" right="-1">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" locked="true"/>
+		<e:Group height="80" left="0" right="0" top="0">
+			<e:Label text="订单号：" x="23" textColor="0x000000" verticalCenter="0" size="26"/>
+			<e:Label text="2000000000000312487589145" x="135" textColor="0x000000" verticalCenter="0" size="26" anchorOffsetX="0" maxWidth="460"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" paddingLeft="25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="80" left="0" right="0" y="80">
+			<e:Label text="顾   客：" x="23" textColor="0x000000" verticalCenter="0" size="26"/>
+			<e:Label text="张三" x="135" textColor="0x000000" verticalCenter="0" size="26" maxWidth="460"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" paddingLeft="25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="80" left="0" right="0" y="160">
+			<e:Label text="备   注：" x="23" textColor="0x000000" verticalCenter="0" size="26"/>
+			<e:Label text="辣椒" x="135" textColor="0x000000" verticalCenter="0" size="26" height="26" maxWidth="460"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" paddingLeft="25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="80" left="0" right="0" y="240">
+			<e:Label text="合   计：" x="23" textColor="0x000000" verticalCenter="0" size="26"/>
+			<e:Label text="33.00元，3份" x="135" textColor="0x000000" verticalCenter="0" size="26" height="26" maxWidth="460"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" paddingLeft="25"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="100" left="0" right="0" top="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x383947"/>
+		<e:Image id="iMenuBtn" source="menu_png" verticalCenter="0" left="15" height="32" width="44"/>
+		<e:Image id="iLocationBtn" source="location_png" x="501" verticalCenter="0"/>
+		<e:Label id="lState" text="开工中" x="81" size="32" verticalCenter="0"/>
+	</e:Group>
+	<e:Group height="60" left="0" right="0" top="100">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x383947"/>
+		<e:Group id="gRenwuBtn" width="33.3%" top="0" bottom="0" left="0" touchEnabled="true" touchChildren="false">
+			<e:Rect id="rTab1" height="5" left="0" right="0" bottom="0" fillColor="0xffffff"/>
+			<e:Label id="lTab1" text="新任务 2" horizontalCenter="0" size="26" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="gQuhuoBtn" width="33.3%" x="213.5" top="0" bottom="0" touchChildren="false" touchEnabled="true">
+			<e:Rect id="rTab2" height="5" left="0" right="0" bottom="0" fillColor="0xffffff" visible="false"/>
+			<e:Label id="lTab2" text="待取货" horizontalCenter="0" size="26" verticalCenter="0" textColor="0xcccccc"/>
+		</e:Group>
+		<e:Group id="gSongdaBtn" width="33.3%" top="0" bottom="0" right="0" touchChildren="false" touchEnabled="true">
+			<e:Rect id="rTab3" height="5" left="0" right="0" bottom="0" fillColor="0xFFFFFF" x="-427" y="45" scaleX="1" scaleY="1" visible="false"/>
+			<e:Label id="lTab3" text="待送达" horizontalCenter="0" size="26" verticalCenter="0" x="-153" y="13" scaleX="1" scaleY="1" textColor="0xcccccc"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="sScroller" left="0" right="0" top="160" bottom="0" enabled="true">
+		<e:Group anchorOffsetX="0" width="424" anchorOffsetY="0" height="409.33">
+			<e:List id="RenwuList" x="0" y="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Rect id="rMask" left="0" right="0" top="0" bottom="0" fillAlpha="0.2" fillColor="0x000000"/>
+	<e:Image id="iRefreshBtn" source="refresh_png" x="34.31" y="992.67" width="80" height="80"/>
+</e:Skin>

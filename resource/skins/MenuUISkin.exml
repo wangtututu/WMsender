@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MenuUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="410" height="1136">
+		<e:Group y="0" height="100" left="0" right="0">
+			<e:Rect fillColor="0x383947" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="lState" text="开工中" x="81" size="32" verticalCenter="0"/>
+			<e:Image id="iReturnBtn" source="return_png" x="11" verticalCenter="0"/>
+		</e:Group>
+		<e:Group y="100" height="180" x="0">
+			<e:Rect fillColor="0x383947" left="0" right="0" top="0" bottom="0"/>
+			<e:Image source="pic_jpg" x="25" width="100" height="100" verticalCenter="0"/>
+			<e:Label text="蜡笔小新" x="145.02" y="45" size="26"/>
+			<e:Label text="18618134974" x="145.02" y="105" size="26"/>
+			<e:Image source="right_w_png" x="366.63" verticalCenter="0"/>
+			<e:Rect id="rDetailMask" width="90.67" height="101.33" x="317" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" fillAlpha="0"/>
+		</e:Group>
+		<e:Group height="120" y="280" left="0" right="0">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
+			<e:Group id="gKaigongBtn" width="33.3%" top="0" bottom="0" left="0" touchEnabled="true" touchChildren="false">
+			<e:Image id="iState1" source="kaigong2_png" y="28.98" horizontalCenter="0.5"/>
+			<e:Label id="lState1" text="开工" y="71.68" textColor="0x1afa29" size="22" horizontalCenter="0.5"/>
+			</e:Group>
+			<e:Group id="gMangluBtn" width="33.3%" x="136.5" top="0" bottom="0" touchChildren="false" touchEnabled="true">
+			<e:Image id="iState2" y="28.98" horizontalCenter="0.5" source="manglu1_png"/>
+			<e:Label id="lState2" text="忙碌" y="71.68" size="22" horizontalCenter="0.5" textColor="0x8a8a8a"/>
+			</e:Group>
+			<e:Group id="gShougongBtn" width="33.3%" top="0" bottom="0" right="0" touchChildren="false" touchEnabled="true">
+			<e:Image id="iState3" y="28.98" horizontalCenter="0.5" source="shougong1_png"/>
+			<e:Label id="lState3" text="收工" y="71.68" size="22" horizontalCenter="0.5" textColor="0x8a8a8a"/>
+			</e:Group>
+		</e:Group>
+		<e:Group left="0" right="0" bottom="2" anchorOffsetY="0" height="735">
+			<e:Rect height="20" left="0" right="0" top="0" fillColor="0xcccccc"/>
+			<e:Rect left="1" right="-1" top="19" bottom="1" fillColor="0xffffff"/>
+			<e:Group height="100" left="0" right="0" y="20">
+			<e:Image source="list_png" x="28.67" verticalCenter="0"/>
+			<e:Group id="gDingdanBtn" top="0" left="90" right="0" bottom="0">
+				<e:Rect height="1" left="0" right="0" bottom="0" fillColor="0xcccccc"/>
+				<e:Label text="历史订单" textColor="0x000000" x="11.98" verticalCenter="0" size="30"/>
+			</e:Group>
+			</e:Group>
+			<e:Group height="100" left="0" right="0" y="120">
+			<e:Image x="28.67" verticalCenter="0" source="setup_png"/>
+			<e:Group id="gShezhiBtn" top="0" left="90" right="0" bottom="0">
+				<e:Rect height="1" left="0" right="0" bottom="0" fillColor="0xCCCCCC"/>
+				<e:Label text="设置" textColor="0x000000" x="11.98" verticalCenter="0" size="30"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Rect id="rBlank" left="410" right="0" top="0" bottom="0" fillAlpha="0"/>
+</e:Skin>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUIItemSkin" width="640" height="460" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15f3d7bedda" locked="true"/>
+	<e:Rect height="15" left="0" right="0" top="0" fillColor="0xcccccc" locked="true"/>
+	<e:Rect left="0" right="0" top="15" bottom="0" fillColor="0xffffff" locked="true"/>
+	<e:Group height="60" top="15" anchorOffsetY="0" left="0" right="0">
+		<e:Rect height="1" left="0" right="0" bottom="0" fillColor="0xcccccc"/>
+		<e:Label id="lDoneTime" text="建议12：00前送达" x="40" textColor="0x000000" size="30" verticalCenter="0.5"/>
+		<e:Image source="time_png" x="10" width="24" height="24" verticalCenter="0" maxWidth="420"/>
+		<e:Group right="20" verticalCenter="0">
+			<e:Label text="#" x="3" y="12" textColor="0x000000" size="16"/>
+			<e:Label id="lNumber" text="333" textColor="0x000000" size="30" y="0" x="0"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" gap="1"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group height="269" left="0" right="0" top="80" anchorOffsetY="0">
+		<e:Group x="81" top="35">
+			<e:Label id="lShopName" text="又卷烧饼（望京SOHO店）" x="0" y="0" textColor="0x000000" size="38" bold="true" maxWidth="420"/>
+			<e:Label id="lShopLoca" text="望京街道望京SOHO中心T1-1128" x="0" y="33" textColor="0x999999" size="20"/>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lUserLoca" text="望京东路18号望京科创大厦C座4层106室" x="81" textColor="0x000000" anchorOffsetY="0" anchorOffsetX="0" maxWidth="420" size="38" bold="true" bottom="35"/>
+		<e:Image id="iDetailBtn" source="right_png" verticalCenter="0" right="20" width="32" height="32"/>
+		<e:Image source="circle1_png" x="18" top="45"/>
+		<e:Image source="circle2_png" x="18" bottom="45"/>
+		<e:Image source="to_png" x="18" verticalCenter="-32.5"/>
+		<e:Image source="to_png" x="18" verticalCenter="32.5"/>
+		<e:Label id="lDis" text="2.1KM" x="13" textColor="0x000000" size="20" verticalCenter="0"/>
+		<e:Rect height="1" left="0" right="0" bottom="0" fillColor="0xcccccc"/>
+		<e:Rect id="rMaskBtn" width="83" height="87" x="554" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="gGetBtn" y="372" anchorOffsetY="0" horizontalCenter="0" touchChildren="false" touchEnabled="true">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xefd47a"/>
+		<e:Label text="接单" textColor="0x000000" size="28" left="110" right="110" top="20" bottom="20"/>
+	</e:Group>
+</e:Skin>
