@@ -148,10 +148,17 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.startCreateScene = function () {
+        this.getMsg();
         Api.Init(this.stage);
         var uiLayer = new eui.UILayer();
         this.addChild(uiLayer);
         Api.ViewManager.openView(MainUI);
+    };
+    Main.prototype.getMsg = function () {
+        egret.ExternalInterface.addCallback("sendToJS", function (message) {
+            console.log("message form native : " + message); //message form native : message from nativeal
+            Api.TipsManager.showTips(message);
+        });
     };
     return Main;
 }(eui.UILayer));

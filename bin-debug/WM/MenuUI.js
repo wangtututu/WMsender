@@ -67,7 +67,6 @@ var MenuUI = (function (_super) {
     };
     MenuUI.prototype.onReturn = function () {
         var mainUI = Api.ViewManager.getView(MainUI);
-        mainUI.rMask.visible = false;
         mainUI.lState.text = Consts.STATE_NAME;
         Api.ViewManager.closeView(MenuUI);
     };

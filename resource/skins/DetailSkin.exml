@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
+	<e:Group height="100" left="0" right="0" top="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x383947"/>
+		<e:Image id="iReturn" verticalCenter="0" left="15" source="return_png"/>
+		<e:Label text="订单详情" size="32" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="0" y="116">
+		<e:Image source="bqbj_png" y="0" x="0"/>
+		<e:Label id="lState" text="待取货" size="26" horizontalCenter="-5" verticalCenter="0" textColor="0x000000"/>
+	</e:Group>
+	<e:Scroller anchorOffsetY="0" left="0" right="0" top="190" bottom="0">
+		<e:Group anchorOffsetX="0" width="368" anchorOffsetY="0" height="445">
+			<e:Group x="0" y="0" scaleX="1" scaleY="1">
+				<e:Group y="0" x="0">
+				<e:Group y="84" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" height="80">
+					<e:Rect height="1" left="0" right="0" bottom="0"/>
+					<e:Rect height="15" left="0" right="0" y="0" fillColor="0x999999"/>
+					<e:Label id="lShopName" text="商家店名" textColor="0x000000" verticalCenter="6" x="30" size="26" bold="true"/>
+				</e:Group>
+				<e:Group width="640" x="204" y="29">
+					<e:List id="list" bottom="15" top="15">
+						<e:layout>
+							<e:VerticalLayout gap="10"/>
+						</e:layout>
+					</e:List>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="70" width="640"/>
+				<e:Group y="84" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" height="67">
+					<e:Label text="总金额:" textColor="0x000000" right="113" size="26" verticalCenter="0.5"/>
+					<e:Label id="lAllPrice" text="￥102.00" size="26" textColor="0xff0000" right="15" verticalCenter="0"/>
+					<e:layout>
+					<e:HorizontalLayout horizontalAlign="right" gap="0" paddingRight="15" paddingTop="20" paddingBottom="20" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" gap="0"/>
+				</e:layout>
+				</e:Group>
+				<e:Group y="10" x="0">
+				<e:Group y="84" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" height="68">
+					<e:Rect height="15" left="0" right="0" y="0" fillColor="0x999999"/>
+					<e:Label text="配送信息" textColor="0x000000" verticalCenter="6" x="30" size="26" bold="true"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="70" width="640"/>
+				<e:Group y="84" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0">
+					<e:Label text="用户姓名：" textColor="0x000000" size="26" x="15" verticalCenter="0" top="5" bottom="5"/>
+					<e:Label id="lPerName" text="李先生" size="26" x="145" textColor="0x000000" verticalCenter="0"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="70" width="640"/>
+				<e:Group y="94" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="10">
+					<e:Label text="联系方式：" textColor="0x000000" size="26" x="15" verticalCenter="0"/>
+					<e:Label id="lPerPhone" text="18618134974" size="26" x="145" textColor="0x000000" verticalCenter="0"/>
+					<e:Group id="gPhonePer" verticalCenter="0" right="40">
+						<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x0fffff"/>
+						<e:Label text="联系客户" textColor="0xdd3939" verticalCenter="0" horizontalCenter="0" top="15" bottom="15" left="40" right="40"/>
+					</e:Group>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="80" width="640" x="10"/>
+				<e:Group y="104" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="20">
+					<e:Label text="送货地址：" textColor="0x000000" size="26" x="15" verticalCenter="0" top="5" bottom="5"/>
+					<e:Label id="lPerAddr" text="那个市哪个区什么小区几号楼多少层" size="26" textColor="0x000000" x="145" anchorOffsetX="0" maxWidth="450" verticalCenter="0"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="90" width="640" x="20"/>
+				<e:Group y="114" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="30">
+					<e:Group id="gPhoneShop" verticalCenter="0" right="40">
+						<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x0FFFFF"/>
+						<e:Label text="联系商家" textColor="0xDD3939" verticalCenter="0" horizontalCenter="0" top="15" bottom="15" left="40" right="40"/>
+					</e:Group>
+					<e:Label text="商家电话：" textColor="0x000000" size="26" x="15" verticalCenter="0"/>
+					<e:Label id="lShopPhone" text="1008611" size="26" textColor="0x000000" x="145" anchorOffsetX="0" maxWidth="450" verticalCenter="0"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="100" width="640" x="30"/>
+				<e:Group y="124" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="40">
+					<e:Label text="商家地址：" textColor="0x000000" size="26" x="15" verticalCenter="0" top="5" bottom="5"/>
+					<e:Label id="lShopAddr" text="那个市哪个区什么小区几号楼多少层" size="26" textColor="0x000000" x="145" anchorOffsetX="0" maxWidth="450" verticalCenter="0"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="110" width="640" x="40"/>
+				<e:Group y="134" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="50">
+					<e:Label text="备       注：" textColor="0x000000" size="26" x="15" verticalCenter="0" top="5" bottom="5"/>
+					<e:Label id="lDesc" text="不要辣椒" size="26" textColor="0x000000" x="145" anchorOffsetX="0" maxWidth="450" verticalCenter="0"/>
+				</e:Group>
+				<e:Rect height="1" left="0" right="0" y="120" width="640" x="50"/>
+				<e:Group y="144" anchorOffsetX="0" left="0" right="0" width="640" anchorOffsetY="0" x="60">
+					<e:Label text="下单时间：" textColor="0x000000" size="26" x="15" verticalCenter="0" top="5" bottom="5"/>
+					<e:Label id="lTime" text="207/10/1    19 : 01 : 50" size="26" textColor="0x000000" x="145" anchorOffsetX="0" maxWidth="450" verticalCenter="0"/>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" gap="10"/>
+				</e:layout>
+				</e:Group>
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="640" x="76" y="684" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group id="gGet" x="46" anchorOffsetX="0" width="229" anchorOffsetY="0" height="62" verticalCenter="0">
+					<e:Rect fillColor="0x0de523" left="0" right="0" top="0" bottom="0"/>
+					<e:Label text="已取货" size="28" textColor="0x000000" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group id="gSend" x="343" anchorOffsetX="0" width="229" anchorOffsetY="0" height="62" verticalCenter="0">
+					<e:Rect fillColor="0x0DE523" left="0" right="0" top="0" bottom="0"/>
+					<e:Label text="已送达" size="28" textColor="0x000000" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="50"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

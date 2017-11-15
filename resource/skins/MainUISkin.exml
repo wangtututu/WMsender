@@ -26,6 +26,5 @@
 			<e:List id="RenwuList" x="0" y="0"/>
 		</e:Group>
 	</e:Scroller>
-	<e:Rect id="rMask" left="0" right="0" top="0" bottom="0" fillAlpha="0.2" fillColor="0x000000"/>
 	<e:Image id="iRefreshBtn" source="refresh_png" x="34.31" y="992.67" width="80" height="80"/>
 </e:Skin>

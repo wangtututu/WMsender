@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailItemSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lName" text="餐盒费" anchorOffsetX="0" width="400" x="15" maxWidth="400" size="26" textColor="0x000000" verticalCenter="0"/>
+	<e:Label id="lNum" text="x1" x="430" size="26" textColor="0x000000" verticalCenter="0"/>
+	<e:Label id="lPrice" text="￥0" size="26" textColor="0x000000" verticalCenter="0" right="15"/>
+</e:Skin>

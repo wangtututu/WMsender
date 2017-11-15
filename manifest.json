@@ -9,7 +9,7 @@
 	],
 	"game": [
 		"bin-debug/core/view/BaseView.js",
-		"bin-debug/core/http/HttpRequestPool.js",
+		"bin-debug/core/loading/SimpleLoading.js",
 		"bin-debug/Main.js",
 		"bin-debug/ThemeAdapter.js",
 		"bin-debug/core/api/API.js",
@@ -36,8 +36,8 @@
 		"bin-debug/core/display/TabbarButton.js",
 		"bin-debug/core/display/UnderLineLabel.js",
 		"bin-debug/core/extends/HashMap.js",
+		"bin-debug/core/http/HttpRequestPool.js",
 		"bin-debug/LoadingUI.js",
-		"bin-debug/core/loading/SimpleLoading.js",
 		"bin-debug/core/module/BaseModule.js",
 		"bin-debug/core/module/ModuleManager.js",
 		"bin-debug/core/resource/GlobalRes.js",
@@ -62,6 +62,8 @@
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/core/view/ViewManager.js",
 		"bin-debug/WM/Consts.js",
+		"bin-debug/WM/Detail.js",
+		"bin-debug/WM/DetailItem.js",
 		"bin-debug/WM/MainUI.js",
 		"bin-debug/WM/MainUIItem.js",
 		"bin-debug/WM/MenuUI.js"

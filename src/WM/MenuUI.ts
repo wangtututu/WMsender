@@ -73,7 +73,6 @@ class MenuUI extends BaseView {
     }
     private onReturn(): void {
         var mainUI = Api.ViewManager.getView(MainUI);
-        mainUI.rMask.visible = false;
         mainUI.lState.text = Consts.STATE_NAME;
         Api.ViewManager.closeView(MenuUI)
     }

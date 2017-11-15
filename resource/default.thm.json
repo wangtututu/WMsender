@@ -29,7 +29,8 @@
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
     "resource/eui_skins/VSliderSkin.exml",
-    "resource/skins/DetailUISkin.exml",
+    "resource/skins/DetailItemSkin.exml",
+    "resource/skins/DetailSkin.exml",
     "resource/skins/MainUIItemSkin.exml",
     "resource/skins/MainUISkin.exml",
     "resource/skins/MenuUISkin.exml"

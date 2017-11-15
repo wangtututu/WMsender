@@ -142,9 +142,17 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected startCreateScene(): void {
+
+        this.getMsg();
         Api.Init(this.stage);
         var uiLayer: eui.UILayer = new eui.UILayer();
         this.addChild(uiLayer);
         Api.ViewManager.openView(MainUI);
+    }
+    private getMsg(): void {
+        egret.ExternalInterface.addCallback("sendToJS", function (message: string) {
+            console.log("message form native : " + message);//message form native : message from nativeal
+            Api.TipsManager.showTips(message)
+        });
     }
 }

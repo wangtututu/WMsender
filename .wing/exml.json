@@ -1,6 +1,6 @@
 {
   "global": {
-    "globalAutoLayerMarkEnable": true
+    "globalAutoLayerMarkEnable": false
   },
   "15f3d7bedd9": {
     "guideLinesEnabled": true

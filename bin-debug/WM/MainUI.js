@@ -32,37 +32,57 @@ var MainUI = (function (_super) {
     };
     MainUI.prototype.onOpen = function (para) {
         this.onTab1();
-        this.rMask.visible = false;
     };
     MainUI.prototype.onTab1 = function () {
-        this._index = 0;
-        this.onTabChange(this._index);
+        Consts.TAB_INDEX = 1;
+        this.onTabChange(Consts.TAB_INDEX);
         var data = RES.getRes("data_json");
         //console.log(data)
         this.RenwuList.dataProvider = new eui.ArrayCollection(data);
     };
     MainUI.prototype.onTab2 = function () {
-        this._index = 1;
-        this.onTabChange(this._index);
+        Consts.TAB_INDEX = 2;
+        this.onTabChange(Consts.TAB_INDEX);
+        var data = RES.getRes("data_json");
+        //console.log(data)
+        this.RenwuList.dataProvider = new eui.ArrayCollection(data);
     };
     MainUI.prototype.onTab3 = function () {
-        this._index = 2;
-        this.onTabChange(this._index);
+        Consts.TAB_INDEX = 3;
+        this.onTabChange(Consts.TAB_INDEX);
+        var data = RES.getRes("data_json");
+        //console.log(data)
+        this.RenwuList.dataProvider = new eui.ArrayCollection(data);
     };
     MainUI.prototype.onTabChange = function (index) {
-        for (var i = 0; i < 3; i++) {
-            this.TabArr[i].visible = false;
-            this.TabArr[i + 3].textColor = 0xCCCCCC;
+        for (var i = 1; i < 4; i++) {
+            this.TabArr[i - 1].visible = false;
+            this.TabArr[i + 2].textcolor = 0xCCCCCC;
         }
-        this.TabArr[index].visible = true;
-        this.TabArr[index + 3].textColor = 0xFFFFFF;
+        this.TabArr[index - 1].visible = true;
+        this.TabArr[index + 2].textcolor = 0xFFFFFF;
     };
     MainUI.prototype.onMenu = function () {
-        Consts.MASK = true;
-        this.rMask.visible = true;
         Api.ViewManager.openView(MenuUI);
     };
     MainUI.prototype.onRefresh = function () {
+        switch (Consts.TAB_INDEX) {
+            case 1:
+                this.onTab1();
+                console.log("刷新1");
+                ;
+                break;
+            case 2:
+                this.onTab2();
+                console.log("刷新2");
+                ;
+                break;
+            case 3:
+                this.onTab3();
+                console.log("刷新3");
+                ;
+                break;
+        }
     };
     return MainUI;
 }(BaseView));

@@ -12,7 +12,7 @@
 			<e:Label text="蜡笔小新" x="145.02" y="45" size="26"/>
 			<e:Label text="18618134974" x="145.02" y="105" size="26"/>
 			<e:Image source="right_w_png" x="366.63" verticalCenter="0"/>
-			<e:Rect id="rDetailMask" width="90.67" height="101.33" x="317" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" fillAlpha="0"/>
+			<e:Rect id="rDetailMask" width="90.67" height="101.33" x="319" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-0.5" fillAlpha="0"/>
 		</e:Group>
 		<e:Group height="120" y="280" left="0" right="0">
 			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
@@ -29,7 +29,7 @@
 			<e:Label id="lState3" text="收工" y="71.68" size="22" horizontalCenter="0.5" textColor="0x8a8a8a"/>
 			</e:Group>
 		</e:Group>
-		<e:Group left="0" right="0" bottom="2" anchorOffsetY="0" height="735">
+		<e:Group left="0" right="0" bottom="0" anchorOffsetY="0" height="737">
 			<e:Rect height="20" left="0" right="0" top="0" fillColor="0xcccccc"/>
 			<e:Rect left="1" right="-1" top="19" bottom="1" fillColor="0xffffff"/>
 			<e:Group height="100" left="0" right="0" y="20">
@@ -48,5 +48,5 @@
 			</e:Group>
 		</e:Group>
 	</e:Group>
-	<e:Rect id="rBlank" left="410" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Rect id="rBlank" left="410" right="0" top="0" bottom="0" fillAlpha="0.2"/>
 </e:Skin>
